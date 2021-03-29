@@ -16,7 +16,9 @@ Clone the repository to your desktop and do the following:
 
 1. Observe the *Data Cleanup* section which shows the data cleanup by removing unwanted columns, renaming columns, and deleting unwanted rows. This results in 2 cleaned dataframes.
 
+1. Launch and use __pgAdmin4__ to open the file, [queries.sql](queries.sql) to perform the queries on the tables, *world_happiness* and *annual_work_hours* . ![SQL Code](images/sql_code.png)
+
 1. In the Jupyter Notebook file, create the database connection by inserting username and password into this this code: `conn = "<insert user name>:<insert password>@localhost:5432/etl_5"`. Verify that the connection was made showing two tables. ![connections](images/connection.png)
 
-1. Launch and use __pgAdmin4__ to open the file, [queries.sql](queries.sql) to perform the queries on the tables, *world_happiness* and *annual_work_hours* . ![SQL Code](images/sql_code.png)
+
 
