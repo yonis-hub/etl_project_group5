@@ -2,46 +2,21 @@
 
 ## Team 5: Emerson Williams-Molett, Kerry Harp, Yonis Hassan
 
-### Data Extraction
+This project demonstrates the ability to extract, transform, and load (ETL) data for use in data analysis.
 
-<a href="https://ourworldindata.org/working-more-than-ever" target="_blank">Are we working more than ever?</a> (csv file hours worked by country 1950-2017)
+Clone the repository to your desktop and do the following:
 
-<a href="https://worldhappiness.report/ed/2021/#appendices-and-data" target="_blank">Happiness Report</a> (csv of data 2005-2020)
+1. Navigate to the cloned folder and launch a GitBash (Windows) or Terminal (Mac).
 
+1. Type `source activate PythonData` and hit ENTER.
 
-<ol>
-<li>	item : <a href>link if there is one</a></li>
-<li>	item : <a href>link if there is one</a></li>
-<li>	item : <a href>link if there is one</a></li>
-<li>	item : <a href>link if there is one</a></li>
-</ol>
+1. Launch __Jupyter Notebook__ and open the file, [etl_project.ipynb](etl_project.ipynb). This file is both the Python code and the required Technical Report.
 
-Both CSV files are in the data folder in the GitHub repo.
+1. Observe the *Data Extraction* section that shows the 2 CSV files were successfully imported.
 
-### Data Cleanup
+1. Observe the *Data Cleanup* section which shows the data cleanup by removing unwanted columns, renaming columns, and deleting unwanted rows. This results in 2 cleaned dataframes.
 
-Process of cleaning the data.
+1. In the Jupyter Notebook file, create the database connection by inserting username and password into this this code: `conn = "<insert user name>:<insert password>@localhost:5432/etl_5"`. Verify that the connection was made showing two tables. ![connections](images/connection.png)
 
-<ol>
-<li>	item : <a href>link if there is one</a></li>
-<li>	item : <a href>link if there is one</a></li>
-<li>	item : <a href>link if there is one</a></li>
-<li>	item : <a href>link if there is one</a></li>
-</ol>
+1. Launch and use __pgAdmin4__ to open the file, [queries.sql](queries.sql) to perform the queries on the tables, *world_happiness* and *annual_work_hours* . ![SQL Code](images/sql_code.png)
 
-Both cleaned CSV files are in the data folder in the GitHub repo.
-
-### Data Analysis
-
-Process to access data analysis
-
-<ol>
-<li>This will require accessing the database. How to do this without password? Leave generic connect script?</li>
-<li>	item : <a href>link if there is one</a></li>
-<li>	item : <a href>link if there is one</a></li>
-<li>	item : <a href>link if there is one</a></li>
-<li>	item : <a href>link if there is one</a></li>
-</ol>
-
-### Technical Report
-A <a href="ETl-Technical-Report.ipynb">report</a> that documents the ETL process for this project .
