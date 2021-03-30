@@ -25,7 +25,8 @@ This project demonstrates the ability to extract, transform, and load (ETL) data
 
 1. Right click on the db *etl_5* and select *Query Tools* 
     * Use [queries.sql](queries.sql) to create the tables 
-        * *world_happiness* and *annual_work_hours* . ![SQL Code](images/sql_code.png)
+        * *world_happiness* and *annual_work_hours* . 
+        ![SQL Code](images/sql_code.png)
 
 
 1. In the Jupyter Notebook file, create the database connection by inserting username and password into this this code: `conn = "<insert user name>:<insert password>@localhost:5432/etl_5"`. Verify that the connection was made showing two tables. ![connections](images/connection.png)
